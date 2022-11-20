@@ -1,3 +1,4 @@
+const nav = document.querySelector('.nav');
 const burgerBtn = document.querySelector('.burger-btn');
 const navList = document.querySelector('.nav__list');
 const allNavItems = document.querySelectorAll('.nav__item');
@@ -21,3 +22,10 @@ const handleCurrentYear = () => {
 handleCurrentYear();
 
 burgerBtn.addEventListener('click', handleNav);
+// window.addEventListener('scroll', () => {
+// 	if (window.scrollY > 200) {
+// 		nav.classList.add('nav--transparent');
+// 	} else {
+// 		nav.classList.remove('nav--transparent');
+// 	}
+// });

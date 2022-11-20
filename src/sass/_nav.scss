@@ -2,6 +2,12 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
+	background-color: #fff;
+	transition: background-color 0.3s;
+
+	// &--transparent {
+	// 	background-color: rgba(255, 255, 255, 0.8);
+	// }
 
 	&__navbar {
 		display: flex;
@@ -20,6 +26,10 @@
 		font-size: 3rem;
 	}
 
+	.burger-btn {
+		padding: 0.4em;
+	}
+
 	&__list {
 		display: flex;
 		justify-content: center;
@@ -36,10 +46,9 @@
 		z-index: 100;
 
 		&--active {
-			transform: translate(0);
+			transform: translateX(0);
 		}
 	}
-
 	&__item {
 		font-size: 3.4rem;
 		margin: 1em;

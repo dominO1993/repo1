@@ -5,3 +5,7 @@
 @use './src/sass/reset';
 @use './src/sass/components';
 @use './src/sass/colors';
+
+html {
+	scroll-padding-top: 80px;
+}
