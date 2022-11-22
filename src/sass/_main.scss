@@ -82,6 +82,35 @@
 			box-shadow: 0 0 5px #999;
 			border-radius: 8px;
 		}
+
+		&__icon {
+			margin-top: 2em;
+			font-size: 4.2rem;
+			text-align: center;
+		}
+
+		&__links {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 4em 0;
+			text-align: center;
+		}
+
+		&__link {
+			margin: 2em;
+
+			p {
+				margin-bottom: 0.8em;
+				font-size: 1.6rem;
+				font-weight: 300;
+			}
+		}
+
+		&__title {
+			margin-bottom: 1em;
+			font-size: 2.4rem;
+		}
 	}
 	.green {
 		background-color: rgb(102, 239, 118);
@@ -138,6 +167,30 @@
 			.two {
 				order: 1;
 			}
+
+			&__icon {
+				font-size: 6rem;
+				margin-bottom: 2.6em;
+			}
+
+			&__links {
+				flex-direction: row;
+				justify-content: center;
+				align-items: flex-start;
+				flex-wrap: wrap;
+			}
+
+			&__link {
+				width: 33%;
+
+				p {
+					font-size: 1.8rem;
+				}
+			}
+
+			&__title {
+				font-size: 3rem;
+			}
 		}
 	}
 }
@@ -181,6 +234,22 @@
 
 			.two {
 				order: 0;
+			}
+
+			&__info {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			&__icon {
+				font-size: 7rem;
+			}
+
+			&__link {
+				margin: 0 3em;
+				width: auto;
+				text-align: left;
 			}
 		}
 	}
