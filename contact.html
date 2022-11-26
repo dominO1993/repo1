@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-
+  <link rel="stylesheet" href="/dist/css/contact.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
@@ -33,7 +33,43 @@
     </div>
 
   </nav>
-  <h1>DEMO!</h1>
+
+  <div class="wrapper">
+    <form>
+      <h1>Napisz do nas!</h1>
+
+      <div class="form-box">
+        <label for="first-name">*Imię:</label>
+        <input id="first-name" type="text">
+      </div>
+
+      <div class="form-box">
+        <label for="second-name">*Nazwisko:</label>
+        <input id="second-name" type="text">
+      </div>
+
+      <div class="form-box">
+        <label for="email">*Adres e-mail:</label>
+        <input id="email" type="email">
+      </div>
+
+      <div class="form-box">
+        <label for="phone-number">Numer telefonu:</label>
+        <input id="phone-number type=" number">
+      </div>
+
+      <div class="form-box">
+        <label for="message">*Twoja wiadomość:</label>
+        <textarea id="message"></textarea>
+      </div>
+
+      <div class="control-buttons">
+        <button class="clear">Wyczyść</button>
+        <button class="send">Wyślij</button>
+      </div>
+    </form>
+  </div>
+
   <footer class="footer">
   <p class="footer__text">&copy; <span class="footer__year"></span> Forest Group Company Ltd.</p>
 </footer>

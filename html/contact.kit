@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/dist/css/contact.min.css">
+  <!-- @include 'styles' -->
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="wrapper">
+      <div class="nav__navbar">
+        <div class="nav__icon">
+          <a href="#"><i class="fa-solid fa-tree"></i> Forest</a>
+        </div>
+
+        <button class="burger-btn"><i class="fa-solid fa-bars"></i></button>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html#">Home</a></li>
+          <li class="nav__item"><a href="index.html#about-us">O nas</a></li>
+          <li class="nav__item"><a href="index.html#offer">Oferta</a></li>
+          <li class="nav__item"><a href="#">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <div class="wrapper">
+    <form>
+      <h1>Napisz do nas!</h1>
+
+      <div class="form-box">
+        <label for="first-name">*Imię:</label>
+        <input id="first-name" type="text">
+      </div>
+
+      <div class="form-box">
+        <label for="second-name">*Nazwisko:</label>
+        <input id="second-name" type="text">
+      </div>
+
+      <div class="form-box">
+        <label for="email">*Adres e-mail:</label>
+        <input id="email" type="email">
+      </div>
+
+      <div class="form-box">
+        <label for="phone-number">Numer telefonu:</label>
+        <input id="phone-number type=" number">
+      </div>
+
+      <div class="form-box">
+        <label for="message">*Twoja wiadomość:</label>
+        <textarea id="message"></textarea>
+      </div>
+
+      <div class="control-buttons">
+        <button class="clear">Wyczyść</button>
+        <button class="send">Wyślij</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- @include 'footer' -->
+  <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>
