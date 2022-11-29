@@ -3,7 +3,8 @@
 	top: 0;
 	width: 100%;
 	background-color: #fff;
-	border-bottom: 1px solid #999;
+	// border-bottom: 1px solid #999;
+  box-shadow: 0 0 200px rgb(109, 109, 109);
 	transition: background-color 0.3s;
 	z-index: 100;
 
@@ -47,6 +48,7 @@
 			transform: translateX(0);
 		}
 	}
+
 	&__item {
 		font-size: 2.8rem;
 		margin: 1em;
@@ -91,6 +93,7 @@
 				padding: 1.5em 1em;
 				font-size: 2.2rem;
 				z-index: 100;
+				text-decoration: none;
 			}
 
 			a::before {

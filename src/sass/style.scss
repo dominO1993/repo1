@@ -1,11 +1,11 @@
-@use './src/sass/nav';
-@use './src/sass/header';
-@use './src/sass/main';
-@use './src/sass/footer';
-@use './src/sass/reset';
-@use './src/sass/components';
-@use './src/sass/colors';
-@use './src/sass/contact';
+@use 'nav';
+@use 'header';
+@use 'main';
+@use 'footer';
+@use 'reset';
+@use 'components';
+@use 'colors';
+@use 'contact';
 
 // html {
 // 	scroll-padding-top: 40px;

@@ -1,4 +1,4 @@
-body {
+.contact-body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,10 +17,6 @@ body {
 		display: flex;
 		align-items: flex-start;
 		margin-bottom: 2em;
-
-		&__input {
-			width: 50px;
-		}
 
 		&__text {
 			padding: 0 1em;
@@ -96,6 +92,11 @@ body {
 		padding: 0.5em;
 		border: 1px solid rgb(172, 171, 171);
 		border-radius: 5px;
+	}
+
+	textarea {
+		max-width: 100%;
+    min-width: 100%;
 	}
 }
 
