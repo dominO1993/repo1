@@ -20,6 +20,28 @@
 		}
 	}
 
+	.main-img {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		margin: 5em 0;
+		background-image: url(/dist/img/adventure-small.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 30vh;
+		z-index: 0;
+
+		&__text {
+			padding: 1em 0;
+			width: 80%;
+			font-size: 2rem;
+			color: #fff;
+			text-align: center;
+			border: 2px solid #fff;
+		}
+	}
+
 	.offer {
 		&__text {
 			margin-bottom: 2em;
@@ -155,6 +177,15 @@
 			}
 		}
 
+		.main-img {
+			background-image: url(/dist/img/adventure-big.jpg);
+
+			&__text {
+				width: 70%;
+				font-size: 2.8rem;
+			}
+		}
+
 		.offer {
 			&__text {
 				font-size: 2.6rem;
@@ -239,6 +270,14 @@
 				object-fit: cover;
 				width: 50%;
 				height: 80%;
+			}
+		}
+
+		.main-img {
+			height: 40vh;
+			&__text {
+				width: 70%;
+				font-size: 3.4rem;
 			}
 		}
 	}
