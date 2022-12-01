@@ -1,11 +1,11 @@
-@use 'nav';
-@use 'header';
-@use 'main';
-@use 'footer';
-@use 'reset';
-@use 'components';
-@use 'colors';
-@use 'contact';
+@use './nav';
+@use './header';
+@use './main';
+@use './footer';
+@use './reset';
+@use './components';
+@use './colors';
+@use './contact';
 
 // html {
 // 	scroll-padding-top: 40px;
