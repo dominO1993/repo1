@@ -93,17 +93,13 @@
 			}
 		}
 
-		// &__box:hover {
-		// 	transform: scale(0.95);
-		// }
-
 		&__btn {
 			position: relative;
 			margin-top: 1em;
 			padding: 0.4em 0;
 			width: 100%;
 			font-size: 2rem;
-			box-shadow: 0 0 5px #999;
+			box-shadow: 2px 5px 5px rgb(186, 186, 186);
 			border-radius: 8px;
 			overflow: hidden;
 		}
@@ -159,7 +155,7 @@
 	}
 	.green {
 		background-color: rgb(102, 239, 118);
-		box-shadow: 0 0 5px rgb(102, 239, 118);
+		box-shadow: 2px 5px 5px rgb(21, 144, 19);
 	}
 }
 
