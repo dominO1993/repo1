@@ -26,7 +26,7 @@
 		align-items: center;
 		position: relative;
 		margin: 5em 0;
-		background-image: url(/dist/img/adventure-small.jpg);
+		background-image: url('./../img/adventure-small.jpg');
 		background-position: center;
 		background-size: cover;
 		background-attachment: fixed;
@@ -175,7 +175,7 @@
 		}
 
 		.main-img {
-			background-image: url('/dist/img/adventure-big.jpg');
+			background-image: url('./../img/adventure-big.jpg');
 
 			&__text {
 				width: 70%;

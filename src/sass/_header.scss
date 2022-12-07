@@ -5,7 +5,7 @@
 	position: relative;
 	top: 50px;
 	margin-bottom: 80px;
-	background-image: url(../dist/img/header-small.jpg);
+	background-image: url('./../img/header-small.jpg');
 	background-position: center;
 	background-size: cover;
 	z-index: 0;
@@ -29,7 +29,7 @@
 
 @media (min-width: 768px) {
 	.header {
-		background-image: url(../dist/img/header-big.jpg);
+		background-image: url('./../img/header-big.jpg');
 
 		&__text {
 			padding: 0 3em;

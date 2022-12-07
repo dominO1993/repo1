@@ -3,7 +3,6 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	// height: 100vh;
 }
 
 .form-boxes {
@@ -11,7 +10,6 @@
 	justify-content: center;
 	flex-direction: column;
 	position: relative;
-	// height: 100vh;
 	margin: 4em;
 
 	.rodo {
@@ -136,12 +134,17 @@
 		border-radius: 5px;
 	}
 
-	.error {
+	.error-text {
 		margin-top: 0.3em;
 		font-size: 1.2rem;
 		color: rgb(237, 41, 41);
 	}
 }
+
+// .form-box.error input, textarea {
+// 	border: 1px solid rgb(239, 90, 90);
+// 	background-color: rgb(230, 208, 208);
+// }
 
 @media (min-width: 768px) {
 	.form-boxes {
